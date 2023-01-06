@@ -1,0 +1,563 @@
+*
+{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+
+    display: flex;
+    width: 100%;
+    height: 40px;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: 'Proza Libre', sans-serif;
+    font-size: 16px;
+    position: fixed;
+    align-items: center;    
+    justify-content: space-around;
+    cursor: pointer;
+    z-index: 100;
+    flex-wrap: wrap;
+                                                
+
+}
+.navbar-menu{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.navbar-menu-home{
+    margin-right: 20px;
+    font-size: 16px;
+    color: #F89D55;
+    font-weight: 500;
+    
+}
+.navbar-menu-organization
+{
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.navbar-menu-organization:hover{
+    color: #F89D55;
+}
+
+.navbar-menu-teacher{
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.navbar-menu-teacher:hover{
+    color: #F89D55;
+}
+.navbar-menu-support{
+    margin-right: 0px;
+    margin-left: 20px;
+    font-weight: 500;
+}
+.navbar-menu-support:hover{
+    color: #F89D55;
+}
+.navbar-user{
+border-color: #FFFFFF;
+border-radius: 50%;
+border: 1px solid;
+padding:4px;
+background-color: #FFFFFF;
+color: #000000;
+font-size: 14px;
+}
+.container{
+    height: 96vh;
+}
+.container-img{
+    width: 100%;
+    height: 100%;
+}
+.container-content{
+    display: flex;
+    position:absolute;
+    top:25%;
+    right:20%;
+    align-items: center;    
+}
+.container-content-logo{
+    width: 20%;
+}
+@media screen and (max-width: 600px) {
+    .container-content-logo-circle img{
+     width:200px;
+     display: none;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .container-content-logo-circle img{
+        width: 300px;
+        display: none;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .container-content-logo-circle img{
+        width: 350px;
+    }
+  }
+.container-content-text h2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 53.25px;
+    color: #000000;
+}
+.container-content-text p{
+    margin-top: 40px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24.2px;
+    color:rgba(0, 0, 0, 0.7);
+}
+.container-content-text-btn
+{
+    display: flex;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+.container-content-text-btn .btn-owner
+{
+    font-family: 'Proza Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: rgba(255, 255, 255, 1);
+    background: #F96B36;
+    border-radius: 5px;
+    padding: 20px 56px;
+    margin-right: 20px;
+    cursor: pointer;
+    
+}
+@media screen and (max-width: 600px) {
+    .container-content-text-btn .btn-owner {
+        margin-right: 0px;
+        padding: 14px 40px;
+        font-size: 18px;
+    }
+    
+  }
+  
+  @media screen and (max-width: 800px) {
+    .container-content-text-btn .btn-owner {
+        margin-right: 0px;
+        padding: 16px 44px;
+        font-size: 20px;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .container-content-text-btn .btn-owner {
+        
+    padding: 16px 44px;
+     font-size: 20px;
+    }
+  }
+.container-content-text-btn .btn-student
+{
+    font-family: 'Proza Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: rgba(255, 255, 255, 1);
+    background: #4F9FE4;
+    border-radius: 5px;
+    padding: 20px 56px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+    .container-content-text-btn .btn-student {
+        margin-left: 0px;
+        padding: 14px 40px;
+        font-size: 18px;
+    }
+    
+  }
+  
+  @media screen and (max-width: 800px) {
+    .container-content-text-btn .btn-student {
+        margin-left: 0px;
+        padding: 16px 44px;
+        font-size: 20px;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .container-content-text-btn .btn-student {
+        
+    padding: 16px 44px;
+     font-size: 20px;
+    }
+  }
+.navbar-black{
+width: 100%;
+height: 40px;
+background: #000000;
+border: 1px solid #000000;
+margin-top: -4px;
+}
+.container-second{
+    position: relative;
+    height: 96vh;
+}
+.container-second-top img{
+    position: absolute;
+    right: 0px;
+    top:0px;
+}
+.container-second-background{
+    position: absolute;
+    display: flex;
+    top:20%;
+    right: 10%;
+    
+}
+.container-second-content h2{
+font-family: 'Proza Libre', sans-serif;
+font-weight: 600;
+font-size: 32px;
+line-height: 43px;
+margin-top: 20px;
+}
+.container-second-content{
+    margin-right: 80px;
+}
+.container-second-content p{
+font-family: 'Proza Libre', sans-serif;
+font-weight: 500;
+font-size: 24px;
+line-height: 33px;
+color: #000000;
+margin-bottom: 30px;
+}
+.container-second-content p span{
+    font-family: 'Proza Libre', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 43px;
+    color: #F96B36;
+}
+.container-second-content-btn
+{
+    font-family: 'Proza Libre', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: rgba(255, 255, 255, 1);
+    background: #C43602;
+    border-radius: 5px;
+    padding: 20px 36px;
+    margin-right: 20px;
+    cursor: pointer;
+    width: 350px;
+
+}
+@media screen and (max-width: 600px) {
+    .container-second-content-btn {
+     width:200px;
+     font-weight: 400;
+     font-size: 14px;
+        padding: 12px 24px;
+    }
+    .container-second-content-img img{
+        width: 0px;
+        display: none;
+     }  
+  }
+  
+  @media screen and (max-width: 800px) {
+    .container-second-content-btn {
+        width:240px;
+        font-weight: 500;
+        font-size: 16px;
+        padding: 10px 22px;
+       }
+       .container-second-content-img img{
+        width: 0px;
+        display: none;
+     }  
+  }
+  @media screen and (max-width: 1200px) {
+    .container-second-content-btn {
+        width:300px;
+        font-weight: 500;
+        font-size: 20px;
+        padding: 14px 30px;
+       }
+     .container-second-content-img img{
+        width: 450px;
+     }  
+  }
+.container-second-end{
+    position:absolute;
+    top: 80%;
+    width: 100%;
+    
+}
+.container-second-end p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Proza Libre', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 41px;
+    margin-bottom: 20px;
+}
+.container-second-end p span{
+    
+    font-family: 'Proza Libre', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 41px;
+    color: #F96B36;
+}
+.container-second-end-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+.container-principle{
+    width: 100%;
+}
+.principle{
+margin: 0px 10px 0px 10px;
+}
+.container-principle-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.priciple img{
+    border-radius: 2px;
+}
+.priciple-text{
+    display: flex;
+font-family: 'Inter', sans-serif;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+color: #FFFFFF;
+background-color:  #C43602;
+padding: 8px 4px 60px 4px;
+align-items: center;
+justify-content: center;
+
+}
+.container-principle-title{
+font-family: 'Proza Libre', sans-serif;
+color: #C43602;
+font-weight: 600;
+font-size: 32px;
+line-height: 43px;
+margin-top: 120px;
+margin-left: 10%;
+}
+.container-teacher{
+    width: 100%;
+}
+.container-teacher-question{
+    margin-left: 10%;
+    margin-top: 120px;
+    font-family: 'Proza Libre', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 43px;
+    color: #03416A;
+    margin-bottom: 40px;
+}
+.container-teacher-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.content-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Proza Libre';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 43px;
+    color: #03416A;
+    
+}
+.content-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Proza Libre';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 43px;
+    color: #03416A;
+    
+}
+.content-1-text
+{
+    margin-left: 20px;
+}
+.content-2-text
+{
+    margin-right: 30px;
+    margin-left:60px;
+}
+.container-about
+{
+    width: 100%;
+    margin-top: 20px;
+}
+.container-about-img
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.end{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+}
+.end-bar {
+    
+    
+    
+
+}
+.end-bar-menu{
+    display: flex;
+}
+.end-bar-meet{
+    display: flex;
+    justify-content: space-between  ;
+}
+.contact{
+    display: flex;
+}
+.end-bar-infor{
+    display: flex;
+}
+.vnpay{
+    display: flex;
+}
+.menu-home{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+margin-right: 4px;
+background: #E4E4E4;
+cursor: pointer;
+}
+.menu-home .icon-home{
+    font-size: 16px;
+    margin-right: 4px;
+    cursor: pointer;
+}
+.menu-support{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+color: rgba(0, 0, 0, 0.7);
+cursor: pointer;
+
+
+}
+.menu-sp{
+    font-size: 14px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.end-bar-meet{
+    font-family: 'Inter', sans-serif;
+    color: #797979;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 30px 0px;
+}
+ .icon{
+    font-size: 30px;
+    margin: 0px 8px 0px 8px;
+    color: #797979;
+    cursor: pointer;
+}
+.end-bar-infor-company h2{
+font-family: 'Inter', sans-serif;
+color: #797979;
+font-weight: 300;
+font-size: 20px;
+line-height: 24px;
+}
+.company-mail
+{
+font-family: 'Inter', sans-serif;
+color: #979797;
+font-weight: 300;
+font-size: 16px;
+line-height: 19px;
+margin: 8px 0px;
+}
+.company-location{
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    color: #979797;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    align-items: center;
+    justify-content: center;
+    margin: 8px 0px;
+}
+.vnpay h2{
+    font-family: 'Inter', sans-serif;
+color: #979797;
+font-weight: 300;
+font-size: 20px;
+line-height: 24px;
+}
+.vnpay img{
+    width: 85px;
+    margin-left:12px;
+}
+.vnpay{
+    margin: 20px 0px;
+}
+.support-question{
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: #5E5E5E;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.end-bar-infor-payment{
+    margin-left: 32px;
+}
