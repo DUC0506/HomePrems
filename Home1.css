@@ -75,6 +75,7 @@ font-size: 14px;
 }
 .container{
     height: 96vh;
+  
 }
 .container-img{
     width: 100%;
@@ -99,13 +100,15 @@ font-size: 14px;
   
   @media screen and (max-width: 800px) {
     .container-content-logo-circle img{
-        width: 300px;
+        width: 200px;
         display: none;
     }
   }
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 1500px) {
     .container-content-logo-circle img{
-        width: 350px;
+        width: 300px;
+        margin-left: 20px;
+        
     }
   }
 .container-content-text h2{
@@ -115,6 +118,22 @@ font-size: 14px;
     line-height: 53.25px;
     color: #000000;
 }
+@media screen and (max-width: 600px) {
+    .container-content-text h2{
+        font-size: 28px;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .container-content-text h2{
+        font-size: 30px;
+    }
+  }
+  @media screen and (max-width: 1500px) {
+    .container-content-text h2{
+        font-size: 38px;
+    }
+  }
 .container-content-text p{
     margin-top: 40px;
     font-family: 'Inter', sans-serif;
@@ -123,6 +142,22 @@ font-size: 14px;
     line-height: 24.2px;
     color:rgba(0, 0, 0, 0.7);
 }
+@media screen and (max-width: 600px) {
+    .container-content-text p{
+        font-size: 12px;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .container-content-text p{
+        font-size: 14px;
+    }
+  }
+  @media screen and (max-width: 1500px) {
+    .container-content-text p{
+        font-size: 18px;
+    }
+  }
 .container-content-text-btn
 {
     display: flex;
@@ -160,10 +195,10 @@ font-size: 14px;
         font-size: 20px;
     }
   }
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 1500px) {
     .container-content-text-btn .btn-owner {
         
-    padding: 16px 44px;
+    padding: 12px 38px;
      font-size: 20px;
     }
   }
@@ -197,11 +232,11 @@ font-size: 14px;
         font-size: 20px;
     }
   }
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 1500px) {
     .container-content-text-btn .btn-student {
         
-    padding: 16px 44px;
-     font-size: 20px;
+        padding: 12px 38px;
+        font-size: 20px;
     }
   }
 .navbar-black{
@@ -234,9 +269,35 @@ font-size: 32px;
 line-height: 43px;
 margin-top: 20px;
 }
+@media screen and (max-width: 600px) {
+    .container-second-content h2 {
+        font-size: 20px;
+       line-height: 24px;
+    }
+    
+  }
+  
+  @media screen and (max-width: 800px) {
+    .container-second-content h2 {
+        font-size: 24px;
+       line-height: 28px;
+    }
+  }
+  @media screen and (max-width: 1500px) {
+    .container-second-content h2 {
+        font-size: 28px;
+       line-height: 40px;
+    }
+  }
+
 .container-second-content{
     margin-right: 80px;
 }
+@media screen and (max-width: 1500px) {
+    .container-second-content{
+        margin-right: 60px;
+    }
+  }
 .container-second-content p{
 font-family: 'Proza Libre', sans-serif;
 font-weight: 500;
@@ -245,6 +306,26 @@ line-height: 33px;
 color: #000000;
 margin-bottom: 30px;
 }
+@media screen and (max-width: 600px) {
+    .container-second-content p {
+        font-size: 18px;
+       line-height: 24px;
+    }
+    
+  }
+  
+  @media screen and (max-width: 800px) {
+    .container-second-content p {
+        font-size: 20px;
+       line-height: 28px;
+    }
+  }
+  @media screen and (max-width: 1500px) {
+    .container-second-content p {
+        font-size: 22px;
+       line-height: 30px;
+    }
+  }
 .container-second-content p span{
     font-family: 'Proza Libre', sans-serif;
     font-weight: 500;
@@ -267,12 +348,14 @@ margin-bottom: 30px;
     width: 350px;
 
 }
+
+
 @media screen and (max-width: 600px) {
     .container-second-content-btn {
      width:200px;
      font-weight: 400;
      font-size: 14px;
-        padding: 12px 24px;
+        padding: 6px 20px;
     }
     .container-second-content-img img{
         width: 0px;
@@ -285,19 +368,19 @@ margin-bottom: 30px;
         width:240px;
         font-weight: 500;
         font-size: 16px;
-        padding: 10px 22px;
+        padding: 8px 22px;
        }
        .container-second-content-img img{
         width: 0px;
         display: none;
      }  
   }
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 1500px) {
     .container-second-content-btn {
         width:300px;
         font-weight: 500;
         font-size: 20px;
-        padding: 14px 30px;
+        padding: 12px 26px;
        }
      .container-second-content-img img{
         width: 450px;
@@ -333,11 +416,28 @@ margin-bottom: 30px;
     justify-content: center;
     border-radius: 4px;
 }
+
+  @media screen and (max-width: 1500px) {
+    .container-second-end-img img {
+        width: 82%;
+    }
+    
+  }
 .container-principle{
     width: 100%;
 }
+@media screen and (max-width: 1500px) {
+    .container-second-end-img img {
+        width: 82%;
+
+    }
+    
+  }
 .principle{
 margin: 0px 10px 0px 10px;
+height: 300px;
+background-color:  #C43602;
+width: 260px;
 }
 .container-principle-list{
     display: flex;
@@ -348,8 +448,14 @@ margin: 0px 10px 0px 10px;
 .priciple img{
     border-radius: 2px;
 }
+@media screen and (max-width: 1500px) {
+    .principle img {
+        width: 260px;
+    }
+    
+  }
 .priciple-text{
-    display: flex;
+display: flex;
 font-family: 'Inter', sans-serif;
 font-weight: 500;
 font-size: 24px;
@@ -359,8 +465,21 @@ background-color:  #C43602;
 padding: 8px 4px 60px 4px;
 align-items: center;
 justify-content: center;
+flex-wrap: nowrap;
+width: 100%;
+bottom: 12px;
+
+
 
 }
+@media screen and (max-width: 1500px) {
+    .priciple-text {
+       
+        font-size: 20px;
+        line-height: 24px;
+    }
+    
+  }
 .container-principle-title{
 font-family: 'Proza Libre', sans-serif;
 color: #C43602;
@@ -369,6 +488,7 @@ font-size: 32px;
 line-height: 43px;
 margin-top: 120px;
 margin-left: 10%;
+margin-bottom: 15px;
 }
 .container-teacher{
     width: 100%;
@@ -401,6 +521,36 @@ margin-left: 10%;
     color: #03416A;
     
 }
+@media screen and (max-width: 600px) {
+    .content-1 {
+        font-size: 22px;
+        line-height: 32px;
+       }
+       .content-1-text
+       {
+           margin-left: 0px !important;
+       }
+       .content-1 img{
+        width: 250px;
+       }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .content-1 {
+        font-size: 24px;
+        line-height: 36px;
+       }  
+       .content-1 img{
+        width: 300px;
+       }
+  }
+  @media screen and (max-width: 1500px) {
+    .content-1 {
+        font-size: 28px;
+        line-height: 40px;
+       }
+       
+  }
 .content-2{
     display: flex;
     align-items: center;
@@ -413,6 +563,43 @@ margin-left: 10%;
     color: #03416A;
     
 }
+@media screen and (max-width: 600px) {
+    .content-2 {
+        font-size: 22px;
+        line-height: 32px;
+       }
+       .content-2-text
+       {
+        margin-right: 0px !important;
+        margin-left:0px !important;
+        }
+        .content-2 img{
+            width: 250px;
+           }
+           .container-teacher-content-img img{
+            width:260px;
+           }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .content-2 {
+        font-size: 24px;
+        line-height: 36px;
+       }  
+       .content-2 img{
+        width: 300px;
+       }
+       .container-teacher-content-img img{
+        width:300px;
+       }
+  }
+  @media screen and (max-width: 1500px) {
+    .content-2 {
+        font-size: 28px;
+        line-height: 40px;
+       }
+       
+  }
 .content-1-text
 {
     margin-left: 20px;
@@ -427,6 +614,21 @@ margin-left: 10%;
     width: 100%;
     margin-top: 20px;
 }
+@media screen and (max-width:600px) {
+    .container-about-img img
+{
+    width: 500px;
+}
+  }
+  
+@media screen and (max-width: 800px) {
+    .container-about-img img
+    {
+        width: 720px;
+    }
+      }
+       
+  
 .container-about-img
 {
     display: flex;
@@ -440,24 +642,33 @@ margin-left: 10%;
     width: 100%;
     margin-top: 30px;
 }
+.container-teacher-content-img{
+    margin-top: 10px;
+}
 .end-bar {
     
-    
+   
     
 
 }
 .end-bar-menu{
     display: flex;
+    width: 100%;
 }
 .end-bar-meet{
     display: flex;
-    justify-content: space-between  ;
+    align-items: center;
+    justify-content: space-between;
+    
 }
 .contact{
     display: flex;
+    
 }
 .end-bar-infor{
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .vnpay{
     display: flex;
@@ -469,7 +680,7 @@ font-weight: 300;
 font-size: 14px;
 line-height: 17px;
 margin-right: 4px;
-background: #E4E4E4;
+
 cursor: pointer;
 }
 .menu-home .icon-home{
